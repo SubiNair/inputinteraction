@@ -1,0 +1,84 @@
+<!doctype html>
+
+<head>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<link rel="stylesheet" href="phone.css">
+<title></title>
+</head>
+
+
+<body>
+	<div id="tab_bar">
+		<button class="button" id="dial">Dialer</button>
+		<button class="button" id="contacts">Contact List</button>
+		<button class="button" id="add">Add Contact</button>
+	</div>
+
+	<div id="content">
+		<div id="content_dial"><br>
+  <input type="text" name="dialer"><br>
+			<tr>
+				<td><button class="numbers">1</button>
+				</td>
+				<td><button class="numbers">2</button></td>
+				<td><button class="numbers">3</button></td>
+			</tr>
+			<tr>
+				<td><button class="numbers">4</button>
+				</td>
+				<td><button class="numbers">5</button></td>
+				<td><button class="numbers">6</button></td>
+			</tr>
+			<tr>
+				<td><button class="numbers">7</button>
+				</td>
+				<td><button class="numbers">8</button></td>
+				<td><button class="numbers">9</button></td>
+			</tr>
+			<tr>
+				<td><button class="numbers">*</button>
+				</td>
+				<td><button class="numbers">0</button></td>
+				<td><button class="numbers">#</button></td>
+			</tr>
+
+			<tr>
+				<td><button class="numbers">Dial</button>
+				</td>
+				<td><button class="numbers">Clear</button></td>
+			</tr>
+		</div>
+
+		<div id="content_contacts">
+				<button class="contact">
+					Albus Dumbledore
+				</button>
+				<button class="contact">Bilbo Baggins
+				</button>
+				<button class="contact">Samwise Gamgee
+				</button>
+		</div>
+
+		<div id="content_add">
+			<form>
+  First:<br>
+  <input type="text" name="First"><br>
+  Last:<br>
+  <input type="text" name="Last"><br>
+  Number:<br>
+  <input type="text" name="Number"><br>
+  Email:<br>
+  <input type="text" name="Email"><br>
+  <input type="submit" name="Add Contact" value="Add Contact">
+</form>
+		</div>
+	</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="phone.js"></script>
+</body>
+
+</html>

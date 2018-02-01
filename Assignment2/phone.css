@@ -1,0 +1,33 @@
+body {
+	width: 60%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.button {
+	width:200px;
+	padding: 5px;
+	background-color: #b3b3b3;
+}
+
+input {
+	width: 30%;
+}
+
+input[type=submit] {
+	margin-top: 10px;
+}
+
+#content_add {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.numbers {
+	margin-top: 20px;
+	width: 200px;
+}
+
+.contact {
+	margin-top: 20px;
+}
