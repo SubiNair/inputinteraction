@@ -1,11 +1,18 @@
 body {
-	width: 60%;
+
 	margin-left: 20px;
 	margin-top: 20px;
 }
 
+.tabbutton {
+	width: 10%;
+	padding: 10px;
+	background-color: #b3b3b3;
+
+}
+
 .button {
-	width:200px;
+	width:150px;
 	padding: 5px;
 	background-color: #b3b3b3;
 }
@@ -25,9 +32,16 @@ input[type=submit] {
 
 .numbers {
 	margin-top: 20px;
-	width: 200px;
+	width: 150px;
 }
 
 .contact {
 	margin-top: 20px;
+}
+
+#gesture_area {
+	border: 3px solid green;
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;
 }

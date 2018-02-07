@@ -9,43 +9,46 @@
 
 <body>
 	<div id="tab_bar">
-		<button class="button" id="dial">Dialer</button>
-		<button class="button" id="contacts">Contact List</button>
-		<button class="button" id="add">Add Contact</button>
+		<button class="tabbutton" id="dial">Dialer</button>
+		<button class="tabbutton" id="contacts">Contact List</button>
+		<button class="tabbutton" id="add">Add Contact</button>
+		<button class="tabbutton" id="gestures">Test Gestures</button>
 	</div>
 
 	<div id="content">
 		<div id="content_dial"><br>
-  <input type="text" name="dialer"><br>
+  <input type="text" id="dialer"><br>
 			<tr>
-				<td><button class="numbers">1</button>
+				<td><button class="numbers" id="1">1</button>
 				</td>
-				<td><button class="numbers">2</button></td>
-				<td><button class="numbers">3</button></td>
+				<td><button class="numbers" id="2">2</button></td>
+				<td><button class="numbers" id="3">3</button></td>
 			</tr>
+			<br>
 			<tr>
-				<td><button class="numbers">4</button>
+				<td><button class="numbers" id="4">4</button>
 				</td>
-				<td><button class="numbers">5</button></td>
-				<td><button class="numbers">6</button></td>
+				<td><button class="numbers" id="5">5</button></td>
+				<td><button class="numbers" id="6">6</button></td>
 			</tr>
+			<br>
 			<tr>
-				<td><button class="numbers">7</button>
+				<td><button class="numbers" id="7">7</button>
 				</td>
-				<td><button class="numbers">8</button></td>
-				<td><button class="numbers">9</button></td>
-			</tr>
+				<td><button class="numbers" id="8">8</button></td>
+				<td><button class="numbers" id="9">9</button></td>
+			</tr><br>
 			<tr>
-				<td><button class="numbers">*</button>
+				<td><button class="numbers" id="star">*</button>
 				</td>
-				<td><button class="numbers">0</button></td>
-				<td><button class="numbers">#</button></td>
-			</tr>
+				<td><button class="numbers" id="0">0</button></td>
+				<td><button class="numbers" id="hash">#</button></td>
+			</tr><br>
 
 			<tr>
 				<td><button class="numbers">Dial</button>
 				</td>
-				<td><button class="numbers">Clear</button></td>
+				<td><button class="numbers" id="clear">Clear</button></td>
 			</tr>
 		</div>
 
@@ -70,7 +73,17 @@
   Email:<br>
   <input type="text" name="Email"><br>
   <input type="submit" name="Add Contact" value="Add Contact">
+
 </form>
+		</div> <!-- end content add-->
+
+		<div id="gesture_tester">
+			<br>
+			<input type="text" id="gesture_output"><br>
+
+			<div id="gesture_area">
+
+			</div>
 		</div>
 	</div>
 
