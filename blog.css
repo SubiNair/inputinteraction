@@ -1,0 +1,38 @@
+img {
+	width: 400px;
+
+}
+
+body {
+	margin: 20px;
+}
+
+table {
+	background-color: #fbefcb;
+	padding-bottom: 20px;
+}
+
+td {
+	padding: 10px;
+}
+
+th {
+	text-align: left;
+	padding: 10px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+
+
+#warning {
+	color: red;
+}
+
+#composer {
+	border: 1px solid black;
+	width: 400px;
+	height: 150px;
+}
