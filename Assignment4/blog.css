@@ -25,9 +25,7 @@ table, th, td{
     border: 1px solid black;
 }
 
-.hidden {
-	display: none;
-}
+
 
 #warning {
 	color: red;

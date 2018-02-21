@@ -1,3 +1,7 @@
+$(document).ready(function(){
+	$("#warning").hide();
+});
+
 $("#button").click(function(){
-	$("#warning").classname ="";
+	$("#warning").show();
 });
