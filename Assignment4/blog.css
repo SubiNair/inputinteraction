@@ -1,6 +1,6 @@
 img {
 	width: 400px;
-	
+
 }
 
 body {
@@ -23,4 +23,18 @@ th {
 
 table, th, td{
     border: 1px solid black;
+}
+
+.hidden {
+	display: none;
+}
+
+#warning {
+	color: red;
+}
+
+#composer {
+	border: 1px solid black;
+	width: 400px;
+	height: 150px;
 }
