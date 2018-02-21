@@ -1,5 +1,6 @@
 img {
 	width: 400px;
+	
 }
 
 body {
@@ -8,6 +9,7 @@ body {
 
 table {
 	background-color: #fbefcb;
+	padding-bottom: 20px;
 }
 
 td {
@@ -17,4 +19,8 @@ td {
 th {
 	text-align: left;
 	padding: 10px;
+}
+
+table, th, td{
+    border: 1px solid black;
 }
