@@ -29,6 +29,7 @@ table, th, td{
 
 #warning {
 	color: red;
+	background-color: yellow;
 }
 
 #composer {
