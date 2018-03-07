@@ -1,13 +1,14 @@
 body {
 
+	background-color: black;
 	margin-left: 20px;
 	margin-top: 20px;
+	color: white;
 }
 
 .tabbutton {
 	width: 10%;
 	padding: 10px;
-	background-color: #b3b3b3;
 
 }
 
