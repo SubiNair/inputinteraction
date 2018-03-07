@@ -4,40 +4,49 @@ body {
 	margin-left: 20px;
 	margin-top: 20px;
 	color: white;
+	font-size: 50px;
 }
 
 .tabbutton {
-	width: 10%;
+	width: 30%;
 	padding: 10px;
+	background-color: black;
 
 }
 
 .button {
 	width:150px;
 	padding: 5px;
-	background-color: #b3b3b3;
+	background-color: black;
 }
 
 input {
-	width: 30%;
+	width: 60%;
+	color: black;
+
 }
 
 input[type=submit] {
 	margin-top: 10px;
+	background-color: black;
+	color: yellow;
 }
 
 #content_add {
 	margin-left: 20px;
 	margin-top: 20px;
+	background-color: black;
 }
 
 .numbers {
 	margin-top: 20px;
-	width: 150px;
+	width: 300px;
+	background-color: black;
 }
 
 .contact {
 	margin-top: 20px;
+	background-color: black;
 }
 
 #gesture_area {
