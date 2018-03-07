@@ -1,0 +1,97 @@
+<!doctype html>
+
+<head>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<link rel="stylesheet" href="phone.css">
+<title></title>
+</head>
+
+
+<body>
+	<div id="tab_bar">
+		<button class="tabbutton" id="dial">Dialer</button>
+		<button class="tabbutton" id="contacts">Contact List</button>
+		<button class="tabbutton" id="add">Add Contact</button>
+		<!--<button class="tabbutton" id="gestures">Test Gestures</button>-->
+	</div>
+
+	<div id="content">
+		<div id="content_dial"><br>
+  <input type="text" id="dialer"><br>
+			<tr>
+				<td><button class="numbers" id="1">1</button>
+				</td>
+				<td><button class="numbers" id="2">2</button></td>
+				<td><button class="numbers" id="3">3</button></td>
+			</tr>
+			<br>
+			<tr>
+				<td><button class="numbers" id="4">4</button>
+				</td>
+				<td><button class="numbers" id="5">5</button></td>
+				<td><button class="numbers" id="6">6</button></td>
+			</tr>
+			<br>
+			<tr>
+				<td><button class="numbers" id="7">7</button>
+				</td>
+				<td><button class="numbers" id="8">8</button></td>
+				<td><button class="numbers" id="9">9</button></td>
+			</tr><br>
+			<tr>
+				<td><button class="numbers" id="star">*</button>
+				</td>
+				<td><button class="numbers" id="0">0</button></td>
+				<td><button class="numbers" id="hash">#</button></td>
+			</tr><br>
+
+			<tr>
+				<td><button class="numbers">Dial</button>
+				</td>
+				<td><button class="numbers" id="clear">Clear</button></td>
+			</tr>
+		</div>
+
+		<div id="content_contacts">
+				<button class="contact">
+					Albus Dumbledore
+				</button>
+				<button class="contact">Bilbo Baggins
+				</button>
+				<button class="contact">Samwise Gamgee
+				</button>
+		</div>
+
+		<div id="content_add">
+			<form>
+  First:<br>
+  <input type="text" name="First"><br>
+  Last:<br>
+  <input type="text" name="Last"><br>
+  Number:<br>
+  <input type="text" name="Number"><br>
+  Email:<br>
+  <input type="text" name="Email"><br>
+  <input type="submit" name="Add Contact" value="Add Contact">
+
+</form>
+		</div> <!-- end content add-->
+
+		<div id="gesture_tester">
+			<br>
+			<input type="text" id="gesture_output"><br>
+
+			<div id="gesture_area">
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="phone.js"></script>
+</body>
+
+</html>
